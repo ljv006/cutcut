@@ -1,0 +1,7 @@
+[PAD]
+[CLS]
+[SEP]
+B
+M
+E
+S
