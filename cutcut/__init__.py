@@ -20,7 +20,7 @@ from bert import BertModelLayer
 from bert.loader import (StockBertConfig, load_stock_weights,
                          map_stock_config_to_params)
 
-warnings.filterwarnings('ignore')
+tf.get_logger().setLevel('ERROR')
 
 get_module_datapath = lambda *res: pkg_resources.resource_filename(__name__, os.path.join(*res))
 
